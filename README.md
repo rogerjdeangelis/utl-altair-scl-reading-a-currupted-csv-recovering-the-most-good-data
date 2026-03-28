@@ -1,10 +1,10 @@
-# utl-altair-scl-reading-a-currupted-csv-recovering-the-most-good-data
-Altair scl reading a currupted csv recovering the most good data
+# utl-altair-scl-reading-a-corrupted-csv-recovering-the-most-good-data
+Altair scl reading a corrupted csv recovering the most good data
     %let pgm=utl-altair-scl-reading-a-currupted-csv-recovering-the-most-good-data;
 
     %stop_submission;
 
-    Altair scl reading a currupted csv recovering the most good data
+    Altair scl reading a corrupted CSV recovering the most good data
 
     Too long to post on a list. see github
     https://github.com/rogerjdeangelis/utl-altair-scl-reading-a-currupted-csv-recovering-the-most-good-data
