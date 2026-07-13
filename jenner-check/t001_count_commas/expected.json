@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-13T06:40:00Z",
+  "_captured_run_id": "r_91aee3b3ac934b74acf66c7413f39fdf",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Processing inline DATALINES (9 lines)",
+    "NOTE: Read 9 rows from DATALINES.",
+    "NOTE: Wrote workx.commas (9 rows, 4 columns).",
+    "NOTE: PROC PRINT completed: 9 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "output_contains": [
+    "commas    Frequency    Percent",
+    "0                 1     11.11",
+    "36                1     11.11"
+  ],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

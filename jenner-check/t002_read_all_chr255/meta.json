@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_read_all_chr255",
+  "source_file": "utl-altair-scl-reading-a-currupted-csv-recovering-the-most-good-data.sas",
+  "source_blob_sha": "761c8a31aa340d97475704b0db032a079ad8d545",
+  "source_commit": "4bf77048a50324a2cf14eade20185ff9c2c4a837",
+  "notes": "Step 2 of the repo's script: read every record into fixed $255 character columns (v1-v39, DSD, MISSOVER) so no trailing data is lost regardless of how many commas a row actually has. Original 'infile d:/csv/2536_bridge_conditions.csv delimiter=\",\" MISSOVER DSD lrecl=384; length v1-v39 $255; informat v1-v39 $255.; input v1-v39;' replaced with 'infile datalines dlm=\",\" dsd missover;' over 4 rows sampled verbatim from the repo's own 2536_bridge_conditions.csv (English header + 3 clean data rows), truncated to the first 10 columns (v1-v10) for a compact bundle. The v1-v39 variable-list RANGE shorthand in LENGTH/INFORMAT/INPUT does not currently parse on Jenner (filed as regression tests); worked around by spelling out v1..v10 explicitly, exercising the identical DSD/MISSOVER/$255 read logic."
+}

@@ -1,0 +1,18 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: Library WORKX assigned path=/tmp/work/r_4fb54fdd1c25417fbd376d116cfaea33/work/0d10d7de-f20d-450f-9098-842ba63a0639.
+NOTE: DATA workx.messy
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 4 rows from DATALINES.
+NOTE: Wrote workx.messy (4 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=workx.messy
+
+NOTE: PROC CONTENTS completed: 4 observations, 10 variables
+NOTE: PROC PRINT data=workx.messy
+
+NOTE: PROC PRINT completed: 4 observations printed, 10 variables
