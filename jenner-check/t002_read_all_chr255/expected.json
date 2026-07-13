@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-13T06:50:00Z",
+  "_captured_run_id": "r_4fb54fdd1c25417fbd376d116cfaea33",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Processing inline DATALINES (4 lines)",
+    "NOTE: Read 4 rows from DATALINES.",
+    "NOTE: Wrote workx.messy (4 rows, 10 columns).",
+    "NOTE: PROC CONTENTS completed: 4 observations, 10 variables",
+    "NOTE: PROC PRINT completed: 4 observations printed, 10 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "output_contains": [
+    "v1        Char    255",
+    "WEST STREET UNDERPASS",
+    "GURNEY CREEK WHITEMAN BRIDGE"
+  ],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_count_commas",
+  "source_file": "utl-altair-scl-reading-a-currupted-csv-recovering-the-most-good-data.sas",
+  "source_blob_sha": "761c8a31aa340d97475704b0db032a079ad8d545",
+  "source_commit": "4bf77048a50324a2cf14eade20185ff9c2c4a837",
+  "notes": "Step 1 of the repo's script: count commas per raw physical line of the corrupted CSV via COUNTC(_infile_,','), then PROC FREQ the distribution. Original 'infile d:/csv/2536_bridge_conditions.csv' + bare 'input;' replaced with inline DATALINES sampled verbatim from the repo's own 2536_bridge_conditions.csv (header rows + a normal data row + the 3-line wrapped address field that causes the corruption). The bare 'INPUT;' + _INFILE_ idiom the original uses does not currently parse on Jenner (filed as a regression test); worked around here with a named $char500. variable capturing the same raw line and running the identical COUNTC() logic, so the bundle still demonstrates the repo's actual diagnostic: wrapped multi-line fields collapse to low comma counts (0, 1, 34) versus well-formed ~35/36."
+}

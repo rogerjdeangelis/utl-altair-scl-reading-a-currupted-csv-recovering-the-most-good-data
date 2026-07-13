@@ -1,0 +1,33 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: workx.messy
+Observations:  4
+Variables:     10
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  v1        Char    255          
+  2  v10       Char    255          
+  3  v2        Char    255          
+  4  v3        Char    255          
+  5  v4        Char    255          
+  6  v5        Char    255          
+  7  v6        Char    255          
+  8  v7        Char    255          
+  9  v8        Char    255          
+ 10  v9        Char    255          
+
+-------------------------------------------------------------------------------
+
+
+  Obs        v1                            v2        v3         v4          v5        v6             v7              v8                            v9         v10
+-----  --------  ----------------------------  --------  ---------  ----------  --------  -------------  --------------  ----------------------------  ----------
+    1  ID        STRUCTURE                     HWY NAME  LATITUDE   LONGITUDE   CATEGORY  SUBCATEGORY 1  TYPE 1          MATERIAL 1                    YEAR BUILT
+    2  1 -  43/  WEST STREET UNDERPASS         403       43.164531  -80.251582  Bridge    Beam/Girder    AASHTO Girder   Prestressed Precast Concrete  1963
+    3  1 -  44/  NORTH PARK STEET UNDERPASS    403       43.165918  -80.263791  Bridge    Beam/Girder    AASHTO Girder   Prestressed Precast Concrete  1962
+    4  1 -  85/  GURNEY CREEK WHITEMAN BRIDGE  24        43.137489  -80.367297  Bridge    Beam/Girder    Plate I Girder  Steel                         2011
+
